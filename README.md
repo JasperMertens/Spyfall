@@ -25,8 +25,11 @@ has been started.
 
 ### Example
 `$ python main.py -i`
+
 `>>> round start`
+
 `>>> timer start`
+
 `quit`
 
 ## References
