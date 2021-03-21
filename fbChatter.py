@@ -30,8 +30,8 @@ class FbChatter:
 
 
     def startClientSession (self):
-        # Hack: see https://github.com/fbchat-dev/fbchat/issues/619
-        fbchat._state.FB_DTSG_REGEX = re.compile(r'"name":"fb_dtsg","value":"(.*?)"')
+        # Hack: see https://github.com/fbchat-dev/fbchat/issues/638#issuecomment-800518857
+        fbchat._state.FB_DTSG_REGEX = re.compile(r'"token":"(.*?)"')
     
         cookies = {}
         try:
